@@ -1,0 +1,2 @@
+docker run -it --rm --runtime nvidia --network host parrisma/jetson-jupyter:1.0
+
