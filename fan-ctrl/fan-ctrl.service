@@ -1,0 +1,10 @@
+[Unit]
+Description=Manage CPU Cooling Fan
+After=upower.service
+
+[Service]
+ExecStart=/usr/bin/fan/fan-ctrl.py
+Restart=always
+
+[Install]
+WantedBy=default.target
